@@ -1,1 +1,28 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://www.myserver.com" method="post">
+        <label for="hvt">Họ Và Tên: </label>
+        <input type="text" name="Họ Và Tên" id="hvt">
+        <br>
+        <label for="time">Chọn Ngày Giờ:</label>
+        <input type="datetime-local" name="Chọn Ngày Giờ" id="time">
+        <br>
+        <label for="dịch vụ">Loại dịch vụ: </label>
+        <select name="Loại dịch vụ">
+            <option value="tư vấn">tư vấn</option>
+            <option value="cskh">cskh</option>
+        </select>
+        <br>
+        <label for="ghi chú">Ghi chú:</label>
+        <textarea name="Ghi Chú" id="ghi chú"></textarea>
+        <br>
+        <button>Đặt Lịch</button>
+    </form>
+</body>
+</html>
